@@ -1,0 +1,50 @@
+<!-- 
+Authors: Amy Gottsegen and Tyler Swietanski
+Date: 11/25/2014
+-->
+
+<html>
+
+<head>
+	<title>Anagramcrackers</title>
+	
+	<!-- CSS formatting -->
+	<link rel="stylesheet" type="text/css" href="graham.css">
+	
+	<!-- Javascript -->
+	<script src="array.js"></script>
+	<script src="nonDictionaryWord.js"></script>
+</head>
+
+<body>
+	<div>
+		<h1>Anagramcrackers</h1>
+	</div>
+
+	<div>
+		Put in a word to find anagrams.
+		<br /><br />
+		
+		<!-- Creates a text box for the user's input and a submit button -->
+		<form name=frmMain>
+		<input type=text name=txtInput 
+		size=40 maxlength=30 id = "input" resizable=true />
+		<input type=button name=btnSubmit value="Submit"
+		onClick = "compareInput(document.forms['frmMain']['txtInput'].value)">
+		</form>
+	
+		<br />
+		Results:
+		<br /><br />
+		
+		<!-- Creates a text area for displaying anagram results -->
+		<form name=frmResult>
+		<textarea name=txtResult id="result"
+		cols=50 rows=30 wrap=virtual readonly=true value=""></textarea>
+		</form>
+	
+		<br /><br />
+	</div>
+</body>
+
+</html>

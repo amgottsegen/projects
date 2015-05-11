@@ -1,0 +1,43 @@
+/*
+Authors: Amy Gottsegen and Tyler Swietanski
+Date: 11/25/2014
+*/
+
+body{
+	background-image: url("img_graham.jpg");
+}
+div{
+	color: chocolate;
+	background-color: wheat;
+	
+	font-size: 16;
+	font-family: "Courier New", Courier, monospace;
+	text-align: center;
+	
+	width: 75em;
+	height: auto;
+	
+	padding: 1em;
+	border-style: outset;
+	border-width: 0.5em;
+	border-color: chocolate;
+	margin-top: 1em;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 10px 10px 5px #888888;
+}
+input{
+	color: chocolate;
+	background-color: white;
+	
+	border-style: outset;
+	border-width: 0.25em;
+	border-color: chocolate;
+}
+textarea{
+	resize: none;
+	
+	border-style: outset;
+	border-width: 0.25em;
+	border-color: chocolate;
+}

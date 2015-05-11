@@ -1,0 +1,13 @@
+User Manual:
+Program: GridTester.cpp
+
+This program is designed to generate a seating chart for the Academy Awards banquet. Because multiple divas will be attending the affair, they must not be seated across or diagonal from each other. To generate your layout, open the file in a development environment like Visual Studio. Then enter the number of divas in the line that reads “Grid g(n);” for n. A window will appear with the layout for your banquet, with 1’s representing tables that divas may be seated at.
+
+This program is designed to generate a grid layout in which chess queens would all be mutually safe from each other. For instance, if the grid size is set to 8, the program will generate a board with spaces represented by 0's and queens represented by 1's, and in this case it will contain 8 queens. Each queen should be placed neither diagonal, above, under, or across another queen.
+
+System Manual
+Program: GridTester.cpp
+
+This program is designed to generate a seating chart for the Academy Awards banquet. Because multiple divas will be attending the affair, they must not be seated across or diagonal from each other.
+The program has 2 central methods: safeSpot and placeDivas. safeSpot checks if the spot in question is suitable for a diva. placeDivas uses safeSpot to find a board with safeSpots for the specified number of divas. The placeDavis method is recursive, after every queen is successfully placed, the method calls itself to place a queen in the next row. 
+

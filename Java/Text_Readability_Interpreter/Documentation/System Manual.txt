@@ -1,0 +1,16 @@
+Program: DifficultyMachine.java
+
+This program reads a text file and interprets the difficulty level based on several measures of readability.
+
+The program counts the number of sentences, words, syllables, and polysyllabic words (here defined as greater than or equal to three syllables).
+
+It then inputs this information into the following equations:
+
+Flesch Reading Ease Score = 206.835 - 84.6 * (Number of Syllables) / (Number of Words) - 1.015 * (Number of Words) / (Number of Sentences)
+
+Flesch-Kincaid Reading Age = 11.8* (Number of Syllables) / (Number of Words) + 0.39 * (Number of Words) / (Number of Sentences) - 15.59
+
+Simple Measure Of Gobbledygook Readability Formula Indicator =  (Number of Polysyllables) / (Number of Sentences) * 30
+
+The SMOG Indicator is then processed to find the closest perfect square, and the square root of that number plus 3 is the final SMOG value.
+

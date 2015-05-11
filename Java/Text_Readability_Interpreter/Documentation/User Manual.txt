@@ -1,0 +1,9 @@
+Program: DifficultyMachine.java
+
+This program reads a text file and interprets the difficulty level based on several measures of readability.
+
+To run the program, open in a developing environment such as JGrasp. Click the "run" button. You will be prompted to enter a file name. Several such text files have been included as examples. Enter a text file with the format:
+
+fileName.txt
+
+The program will then display the various readability scores and evaluations of your text. At this point you may either enter another file name, or enter "QUIT" to stop the program. Additionally, a file will have been created called "output.txt" which shows a summary of the evaluations of all the texts you entered while using the program.
